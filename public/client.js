@@ -24,7 +24,7 @@ var recipeTemplate =
   "</div>" +
   "</div>";
 
-var serverBase = "//localhost:8080/";
+var serverBase = "//salty-journey-64412.herokuapp.com/";
 var RECIPES_URL = serverBase + "recipes";
 var SHOPPING_LIST_URL = serverBase + "shopping-list";
 
