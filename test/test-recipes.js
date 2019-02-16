@@ -46,7 +46,7 @@ describe('Recipes', function() {
 
   it('should add a recipe on POST', function() {
     const newRecipe = {
-        name: 'coffee', ingredients: ['ground coffee', 'hot water']};
+        name: 'Pickle Rick', ingredients: ['pickle', 'rick', 'science']};
     return chai.request(app)
       .post('/recipes')
       .send(newRecipe)
@@ -64,8 +64,8 @@ describe('Recipes', function() {
   it('should update recipes on PUT', function() {
 
     const updateData = {
-      name: 'foo',
-      ingredients: ['bizz', 'bang']
+      name: 'Avocado Toast',
+      ingredients: ['avocado', 'toast']
     };
 
     return chai.request(app)
